@@ -14,7 +14,7 @@ The supplied code calculates IDs and SHA-256 values, not SQLite.
 | assets | One observed metadata revision of a scene's red or nir asset | asset_id |
 | subset_requests | One asset, AOI and extraction recipe combination | subset_id |
 | download_attempts | One attempt to acquire or verify that subset | attempt_id |
-| artifacts | One distinct, successfully stored subset byte sequence | artifact_id |
+| artifacts | One distinct, successfully stored subset byte sequence | artifact_id |x
 | artifact_locations | One known local path for an artifact | location_id |
 
 ## assets

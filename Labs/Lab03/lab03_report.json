@@ -1,0 +1,200 @@
+{
+  "database": "/Users/jklimek/Desktop/AGH/AUTOMATED_WORKFLOWS/Labs/Lab03/state/catalogue.sqlite",
+  "attempts": [
+    {
+      "attempt_id": "attempt-fa25aac5-fd11-472e-86ed-1136d7c038e3",
+      "run_id": "lab03-7789319d-c978-4fda-995c-e9191427599a",
+      "item_id": "S2C_34UDA_20250605_0_L2A",
+      "asset_key": "red",
+      "aoi_key": "48e7066dc2510b10454cbc305c90ecb47f71c0966d733d6ab4ec2630c8745724",
+      "status": "failed",
+      "stage": "read_window",
+      "network_bytes": 1703937,
+      "http_status": 206,
+      "error_code": "RANGE_READ_FAILED",
+      "error_message": "TimeoutError: The read operation timed out",
+      "artifact_id": null,
+      "started_at": "2026-10-25T09:01:16.676201Z"
+    },
+    {
+      "attempt_id": "attempt-6f515ba7-8b97-4f99-99cf-fd57c1c9291b",
+      "run_id": "lab03-efa7ef85-ba68-4827-b3dd-933f1754ae58",
+      "item_id": "S2C_34UDA_20250605_0_L2A",
+      "asset_key": "red",
+      "aoi_key": "48e7066dc2510b10454cbc305c90ecb47f71c0966d733d6ab4ec2630c8745724",
+      "status": "succeeded",
+      "stage": "complete",
+      "network_bytes": 2097153,
+      "http_status": 206,
+      "error_code": null,
+      "error_message": null,
+      "artifact_id": "59d7497b6d0acac9cc3d487175e8d2cbd5d8612fbd1a58b9e37d8eb83d7c06e1",
+      "started_at": "2026-10-25T09:02:31.209856Z"
+    },
+    {
+      "attempt_id": "attempt-11ca4187-d73e-4d7c-a54b-734985829e08",
+      "run_id": "lab03-efa7ef85-ba68-4827-b3dd-933f1754ae58",
+      "item_id": "S2C_34UDA_20250605_0_L2A",
+      "asset_key": "nir",
+      "aoi_key": "48e7066dc2510b10454cbc305c90ecb47f71c0966d733d6ab4ec2630c8745724",
+      "status": "succeeded",
+      "stage": "complete",
+      "network_bytes": 2097153,
+      "http_status": 206,
+      "error_code": null,
+      "error_message": null,
+      "artifact_id": "fca9fc0ea7e68ceff3015929352513dbcdd0d9a9d9e5d75cb90ca393bc502adb",
+      "started_at": "2026-10-25T09:02:37.002889Z"
+    },
+    {
+      "attempt_id": "attempt-4f579097-da51-4deb-9f3f-6639a4929278",
+      "run_id": "lab03-87031363-90d1-40e1-90c1-899dc2dd8de3",
+      "item_id": "S2C_34UDA_20250605_0_L2A",
+      "asset_key": "red",
+      "aoi_key": "48e7066dc2510b10454cbc305c90ecb47f71c0966d733d6ab4ec2630c8745724",
+      "status": "reused",
+      "stage": "cache_verify",
+      "network_bytes": 0,
+      "http_status": null,
+      "error_code": null,
+      "error_message": null,
+      "artifact_id": "59d7497b6d0acac9cc3d487175e8d2cbd5d8612fbd1a58b9e37d8eb83d7c06e1",
+      "started_at": "2026-10-25T09:03:33.059243Z"
+    },
+    {
+      "attempt_id": "attempt-e9f60605-c657-4348-873d-019d7328013a",
+      "run_id": "lab03-87031363-90d1-40e1-90c1-899dc2dd8de3",
+      "item_id": "S2C_34UDA_20250605_0_L2A",
+      "asset_key": "nir",
+      "aoi_key": "48e7066dc2510b10454cbc305c90ecb47f71c0966d733d6ab4ec2630c8745724",
+      "status": "reused",
+      "stage": "cache_verify",
+      "network_bytes": 0,
+      "http_status": null,
+      "error_code": null,
+      "error_message": null,
+      "artifact_id": "fca9fc0ea7e68ceff3015929352513dbcdd0d9a9d9e5d75cb90ca393bc502adb",
+      "started_at": "2026-10-25T09:03:33.073594Z"
+    },
+    {
+      "attempt_id": "attempt-be4fd176-5d8e-4b1c-92fa-71e624237f2d",
+      "run_id": "lab03-8a1717db-5bdb-4852-b1f9-6becfd05ac3c",
+      "item_id": "S2C_34UDA_20250605_0_L2A",
+      "asset_key": "red",
+      "aoi_key": "02da9b5e2c3e096cd57dbab81d7b4b56f91ccdbde37ec6385f8bd028b265ae54",
+      "status": "succeeded",
+      "stage": "complete",
+      "network_bytes": 2097153,
+      "http_status": 206,
+      "error_code": null,
+      "error_message": null,
+      "artifact_id": "633694143409a86b11635ceb253fad38df16180cb85d24e7179211ed8ce827c0",
+      "started_at": "2026-10-25T09:54:55.139222Z"
+    },
+    {
+      "attempt_id": "attempt-4604e9bd-47c4-4110-8fca-5da220df156a",
+      "run_id": "lab03-8a1717db-5bdb-4852-b1f9-6becfd05ac3c",
+      "item_id": "S2C_34UDA_20250605_0_L2A",
+      "asset_key": "nir",
+      "aoi_key": "02da9b5e2c3e096cd57dbab81d7b4b56f91ccdbde37ec6385f8bd028b265ae54",
+      "status": "succeeded",
+      "stage": "complete",
+      "network_bytes": 2097153,
+      "http_status": 206,
+      "error_code": null,
+      "error_message": null,
+      "artifact_id": "d79fdf021855577bffb9718a3fa2733dc26d1065586efba3ef46414bb4f326e2",
+      "started_at": "2026-10-25T09:55:00.073309Z"
+    }
+  ],
+  "subsets": [
+    {
+      "subset_id": "5462fd6b1d071487ebf4f9872da69c339ad7568e2b9bd923d7e7ad1e40fb2e2b",
+      "asset_id": "d200bd3f0222f2ffeb3048b0ecf35731181a9b5eca9c66f280d9af95bfbad5a2",
+      "aoi_key": "48e7066dc2510b10454cbc305c90ecb47f71c0966d733d6ab4ec2630c8745724",
+      "status": "ready",
+      "latest_artifact_id": "59d7497b6d0acac9cc3d487175e8d2cbd5d8612fbd1a58b9e37d8eb83d7c06e1"
+    },
+    {
+      "subset_id": "f66f860d150ad4f0a41201bad30d12ab8f99fee60a4d3d25810569c6d44c6f0e",
+      "asset_id": "a2d220b3d0db776bd878281b88dd3d085be4ddc78042674be044110f202bdff8",
+      "aoi_key": "48e7066dc2510b10454cbc305c90ecb47f71c0966d733d6ab4ec2630c8745724",
+      "status": "ready",
+      "latest_artifact_id": "fca9fc0ea7e68ceff3015929352513dbcdd0d9a9d9e5d75cb90ca393bc502adb"
+    },
+    {
+      "subset_id": "af474ae8b95c187a87c4fe8443853bd4879dfe721c3d78ed4dc8e455a5e6d32e",
+      "asset_id": "d200bd3f0222f2ffeb3048b0ecf35731181a9b5eca9c66f280d9af95bfbad5a2",
+      "aoi_key": "02da9b5e2c3e096cd57dbab81d7b4b56f91ccdbde37ec6385f8bd028b265ae54",
+      "status": "ready",
+      "latest_artifact_id": "633694143409a86b11635ceb253fad38df16180cb85d24e7179211ed8ce827c0"
+    },
+    {
+      "subset_id": "9d71da0367a3fae0f0f93671894a6c003c4ad3bb3c64b810f29e5e64c56efa49",
+      "asset_id": "a2d220b3d0db776bd878281b88dd3d085be4ddc78042674be044110f202bdff8",
+      "aoi_key": "02da9b5e2c3e096cd57dbab81d7b4b56f91ccdbde37ec6385f8bd028b265ae54",
+      "status": "ready",
+      "latest_artifact_id": "d79fdf021855577bffb9718a3fa2733dc26d1065586efba3ef46414bb4f326e2"
+    }
+  ],
+  "locations": [
+    {
+      "location_id": "6974767e4438352817c4e8192aba1e6ad8d76387ccc7228ad2ecef0e2a2a9dae",
+      "artifact_id": "59d7497b6d0acac9cc3d487175e8d2cbd5d8612fbd1a58b9e37d8eb83d7c06e1",
+      "local_path": "/Users/jklimek/Desktop/AGH/AUTOMATED_WORKFLOWS/Labs/Lab03/data/S2C_34UDA_20250605_0_L2A/48e7066dc251/red-59d7497b6d0acac9.tif",
+      "status": "available",
+      "checked_at": "2026-10-25T09:03:33.072682Z"
+    },
+    {
+      "location_id": "568014a4f3f6ef38aa3fbad3e50e8a970ee5603b436d8bcd153fcdad9cd33903",
+      "artifact_id": "fca9fc0ea7e68ceff3015929352513dbcdd0d9a9d9e5d75cb90ca393bc502adb",
+      "local_path": "/Users/jklimek/Desktop/AGH/AUTOMATED_WORKFLOWS/Labs/Lab03/data/S2C_34UDA_20250605_0_L2A/48e7066dc251/nir-fca9fc0ea7e68cef.tif",
+      "status": "available",
+      "checked_at": "2026-10-25T09:03:33.075307Z"
+    },
+    {
+      "location_id": "ce8a4d2d3093a02a3077b38fe8a8c58ecc802f95a7e5710790fe734ca1d5d65d",
+      "artifact_id": "633694143409a86b11635ceb253fad38df16180cb85d24e7179211ed8ce827c0",
+      "local_path": "/Users/jklimek/Desktop/AGH/AUTOMATED_WORKFLOWS/Labs/Lab03/data/S2C_34UDA_20250605_0_L2A/02da9b5e2c3e/red-633694143409a86b.tif",
+      "status": "available",
+      "checked_at": "2026-10-25T09:55:00.071615Z"
+    },
+    {
+      "location_id": "5402bf2f75632adb33303bf7406792a131ddff201227d2e49c0a61dc85d0cc01",
+      "artifact_id": "d79fdf021855577bffb9718a3fa2733dc26d1065586efba3ef46414bb4f326e2",
+      "local_path": "/Users/jklimek/Desktop/AGH/AUTOMATED_WORKFLOWS/Labs/Lab03/data/S2C_34UDA_20250605_0_L2A/02da9b5e2c3e/nir-d79fdf021855577b.tif",
+      "status": "available",
+      "checked_at": "2026-10-25T09:55:04.787801Z"
+    }
+  ],
+  "runs": [
+    {
+      "run_id": "lab03-7789319d-c978-4fda-995c-e9191427599a",
+      "command": "acquire",
+      "status": "failed",
+      "error": "TimeoutError: The read operation timed out",
+      "started_at": "2026-10-25T09:01:16.665567Z"
+    },
+    {
+      "run_id": "lab03-efa7ef85-ba68-4827-b3dd-933f1754ae58",
+      "command": "acquire",
+      "status": "succeeded",
+      "error": null,
+      "started_at": "2026-10-25T09:02:31.196604Z"
+    },
+    {
+      "run_id": "lab03-87031363-90d1-40e1-90c1-899dc2dd8de3",
+      "command": "acquire",
+      "status": "succeeded",
+      "error": null,
+      "started_at": "2026-10-25T09:03:33.046592Z"
+    },
+    {
+      "run_id": "lab03-8a1717db-5bdb-4852-b1f9-6becfd05ac3c",
+      "command": "acquire",
+      "status": "succeeded",
+      "error": null,
+      "started_at": "2026-10-25T09:54:55.126117Z"
+    }
+  ]
+}
