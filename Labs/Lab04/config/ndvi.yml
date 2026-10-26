@@ -1,0 +1,29 @@
+database: /Users/jklimek/Desktop/AGH/AUTOMATED_WORKFLOWS/Labs/Lab04/state/catalogue.sqlite
+science:
+  stage: ndvi_v1
+  grid_policy: require_match
+  scaling: reviewed_calibration
+  mask_policy: nodata_only
+  denominator_epsilon: 1.0e-06
+  min_valid_fraction: 0.1
+  calibration:
+    red:
+      sha256: df429fb5eff330afe76e6dd0b7e749fba163e77dada3bdf6c6e18e430c601441
+      scale: 0.0001
+      offset: 0.0
+      evidence: 'Lab04 CALIBRATION_REVIEW.md: exact captured COG subsets; provider
+        boa_offset_applied=true and DN distributions support offset 0. Teaching interpretation;
+        no independent JP2 radiometric comparison.'
+    nir:
+      sha256: 94733ceb5a90b44961485d021290543635df521a4c1da4d6fbb79ef7ec5f7d72
+      scale: 0.0001
+      offset: 0.0
+      evidence: 'Lab04 CALIBRATION_REVIEW.md: exact captured COG subsets; provider
+        boa_offset_applied=true and DN distributions support offset 0. Teaching interpretation;
+        no independent JP2 radiometric comparison.'
+  inputs:
+    red: input-59d7497b6d0acac9cc3d487175e8d2cbd5d8612fbd1a58b9e37d8eb83d7c06e1
+    nir: input-fca9fc0ea7e68ceff3015929352513dbcdd0d9a9d9e5d75cb90ca393bc502adb
+runtime:
+  output_dir: /Users/jklimek/Desktop/AGH/AUTOMATED_WORKFLOWS/Labs/Lab04/outputs
+  log_dir: /Users/jklimek/Desktop/AGH/AUTOMATED_WORKFLOWS/Labs/Lab04/logs
