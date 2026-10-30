@@ -68,10 +68,9 @@ def validate_pair(red, nir):
 
 
 def calculate_ndvi(red, nir, red_meta, nir_meta, epsilon):
-    """Return float32 NDVI; invalid pixels must be NaN. Inputs are stored DN."""
-    # Shared scaling cancels in a ratio. Is that the whole calibration here?
     r = red.astype('float64') * red_meta['scale'] + red_meta['offset']
     n = nir.astype('float64') * nir_meta['scale'] + nir_meta['offset']
     valid = (red != red_meta['nodata']) & (nir != nir_meta['nodata']) & (np.abs(n + r) > epsilon)
+    
     with np.errstate(divide='ignore', invalid='ignore'):
         return np.where(valid, (n - r) / (n + r), np.nan).astype('float32')
